@@ -1,0 +1,24 @@
+body { font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.8; color: #2c3e50; margin: 0; }
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+header { background: #002d62; color: white; padding: 20px 0; }
+header h1 { margin: 0; font-size: 1.5rem; display: inline-block; }
+header nav { float: right; }
+header nav a { color: white; margin-left: 20px; text-decoration: none; }
+
+section { padding: 60px 0; border-bottom: 1px solid #eee; }
+h3 { color: #002d62; font-size: 2rem; margin-bottom: 30px; }
+
+#fv { text-align: center; padding: 100px 0; }
+#fv h2 { font-size: 2.5rem; margin-bottom: 20px; }
+
+.work-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+.work-card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; }
+.work-card img { width: 100%; margin-top: 15px; border-radius: 4px; border: 1px solid #eee; }
+.work-card a img {
+    transition: transform 0.3s ease;
+}
+.work-card a:hover img {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+footer { background: #f8f9fa; padding: 40px 0; text-align: center; }
